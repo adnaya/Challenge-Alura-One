@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Criptografador de Texto</title>
+</head>
+<body>
+    <header>
+        <img src="./styles/assets/logo-alura.png" alt="logo-alura">
+    </header>
+
+    <main class="principal">
+        <section>
+            <div class="menu-input">
+                <input type="text">
+            </div>
+            <p class="texto-info"><img src="/styles/assets/icone-exlamation.png" alt="">Apenas letras minúsculas e sem acento.</p>
+            <div class="menu-botao">
+                <button class="btn-criptografar">Criptografar</button>
+                <button class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <aside class="menu-output-retorno">
+            <div class="bloco-um">
+                <p class="texto-output"></p>
+            </div>
+            <div class="bloco-dois">
+                <button class="btn-copiar">Copiar</button>  
+            </div>
+        </aside>
+        <footer></footer>
+    </main>
+    <script src="decode.js"></script>   
+</body>
+</html>

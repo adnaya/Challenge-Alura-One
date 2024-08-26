@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+    color: #011C26;
+}
+
+header{
+    width: 100%;
+    padding: 50px;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 58px;
+}
+
+section{
+    width: 720px;
+    height: 870px;
+      
+}
+
+.menu-input{
+    width: 720px;
+    height: 610px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: #B149BF;
+    box-sizing: border-box;
+    padding: 2rem;
+    
+}
+
+.texto-info{
+    display: flex;
+    text-align: center;
+    gap: 8px;
+    padding: 48px 0 15px 60px;
+    font-family: 'Inter';
+}
+
+.menu-botao{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-family: 'Inter';
+}
+
+.btn-criptografar{
+    width: 328px;
+    height: 67px;
+    border: solid #B149BF;
+    border-radius: 24px;
+    font-family: 'Inter';
+    background-color: #B149BF;
+    color: #FFFFFF;
+}
+
+.btn-descriptografar{
+    width: 328px;
+    height: 67px;
+    font-family: 'Inter';
+    border-radius: 24px;
+    border: 3px solid;
+    border-color: #B149BF;
+    background-color: #D8DFE8;
+
+}
+
+.btn-criptografar:hover{
+    background-color: #9737A4;
+}
+
+.btn-descriptografar:hover{
+    background-color: #FFFFFF;
+}
+
+.menu-output{
+    width: 400px;
+    height: 912px;
+    background-color: #FFFFFF;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 30px;
+    padding: 230px 32px 240px;
+    position: relative;
+    margin-top: -130px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: #B149BF;
+}
+
+.texto{
+    font-family: 'Inter';
+    padding: 0% 32px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto-cont{
+    font-family: 'Inter';
+    padding: 0% 50px 0;
+    text-align: justify;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    font-family: 'Inter';
+    border-radius: 24px;
+    border: 3px solid;
+    border-color: #B149BF;
+    background-color: #ffffff;
+    margin: auto 32px 43px;
+    
+}
+
+.menu-output-retorno{
+    width: 400px;
+    height: 912px;
+    background-color: #FFFFFF;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative;
+    margin-top: -130px;
+    border-radius: 30px;
+    border: 3px solid;
+    border-color: #B149BF;
+}
+
+.texto-output{
+    margin: 2em;
+}
+
+.bloco-um{
+    position: relative;
+    height: 760px;
+}
+
+.bloco-dois{
+    position: relative;
+    height: 153px;
+    display: flex;
+
+}
+
+.btn-copiar:hover{
+    background-color: #D8DFE8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
